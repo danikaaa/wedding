@@ -1,15 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-
-
 import Account from './Account';
+import Gallery from './Gallery';
+import Calendar from './Calendar';
+import Dday from './Dday';
 
 function App() {
   return (
 
     <div className='main'>
       <div className='music'>음악</div>
-      <div className='img' >대문사진
+      <div className='img' >
       <img className='mainImg' src={`${process.env.PUBLIC_URL}/img/main_img.JPG`}></img>
       </div>
       <div className='date'>
@@ -26,10 +26,12 @@ function App() {
         </pre>
       </div>
       <div className='img2'>이뮈쥐</div>
-      <div className='calendar'>달력</div>
-      <div className='gallery'>갤러리</div>
-      <div className='calendar'>달력
-        <div className='dday'>디데이</div>
+      <div className='calendar'>
+        <Calendar />
+        <Dday />
+      </div>
+      <div className='gallery'>
+        <Gallery />
       </div>
       <div className='parents'>
         <b>윤 근 용 · 김 해 영</b> 의 장남   <b>윤 기 섭</b><br />

@@ -1,0 +1,15 @@
+
+.calendar table{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.calendar .sunday{
+    color: red;
+}
+
+.calendar .wedding_day{
+    background-color: hotpink;
+    font-weight: bold;
+    color: #ffffff;
+}
