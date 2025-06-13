@@ -29,7 +29,7 @@ const Calendar = () =>{
                 {week.map((day, index) => (
                     <td key={index} className ={Number(day.key) === weddingDay ? "wedding_day" : (index === 0) ? 'sunday' : ''}>
                         {day.props.children}   
-                    </td> // day.prors.children
+                    </td> // day가 아니라 day.prors.children 사용
                 ))}
             </tr>
             

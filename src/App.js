@@ -10,7 +10,7 @@ function App() {
     <div className='main'>
       <div className='music'>음악</div>
       <div className='img' >
-      <img className='mainImg' src={`${process.env.PUBLIC_URL}/img/main_img.JPG`}></img>
+      <img className='mainImg' src={`${process.env.PUBLIC_URL}/img/main_img.jpg`}></img>
       </div>
       <div className='date'>
         <pre>2025년 11월 8일 토요일, 오전 10시 50분</pre>
