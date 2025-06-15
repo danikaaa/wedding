@@ -1,0 +1,37 @@
+.gallery {
+    padding: 20px;
+    max-width: 720px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .gallery-row {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 14px;
+  }
+  
+  .gallery-image {
+    flex: 1;
+    max-width: 220px;
+    height: 140px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    transition: transform 0.25s ease;
+  }
+  
+  .gallery-image:hover {
+    transform: scale(1.08);
+  }
+  
+  .gallery-toggle {
+    cursor: pointer;
+    color: #007bff;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 15px;
+    user-select: none;
+  }
+  
